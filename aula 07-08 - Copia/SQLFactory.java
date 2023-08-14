@@ -7,7 +7,6 @@ public class SQLFactory {
         Diretor diretor = new Diretor("Will", 58, "0", "ADS");
         Materia materia1 = new Materia("P.O.O");
 
-        // Updated constructor parameters based on your Semestre class definition
         Semestre semestre1 = new Semestre(aluno, professor, materia1, coordenador, diretor);
         semestre1.getInformacoes();
 
